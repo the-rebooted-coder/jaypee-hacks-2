@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jaypee Hacks</title>
-    <meta name="description" content="Hack in the North 5 Website.">
+    <meta name="description" content="Jaypee Hacks. #SeeYouInApril">
     <link rel="stylesheet" href="./css/style-prev.css">
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -270,9 +270,9 @@
                 </div>
             </div>
         </div>
-        <img src="./images/Landing/back.svg" alt="" class="mountain" id="back" style="z-index: 1;">
-        <img src="./images/Landing/mid.svg" alt="" class="mountain" id="mid" style="z-index: 2;">
-        <img src="./images/Landing/front.svg" alt="" class="mountain" id="front" style="z-index: 4;">
+        <img src="./images/Landing/beach-back.svg" alt="" class="mountain" id="back" style="z-index: 1;">
+        <img src="./images/Landing/beach-mid.svg" alt="" class="mountain" id="mid" style="z-index: 2;">
+        <img src="./images/Landing/beach.svg" alt="" class="mountain" id="front" style="z-index: 4;">
     </div>
     <div class="about" id="about">
         <div id="test" style="width:30vw">
@@ -1210,7 +1210,7 @@
                      target="_blank" style="color: white">MLH Code of Conduct</a>
                </div> -->
                 <div class="col-12" style="color: white">
-                    Copyright © 2022 Jaypee Builds
+                    Copyright © 2022 Jaypee Hacks
                 </div>
             </div>
             <div class="row footer-row justify-content-around footer-social-links">
@@ -1377,33 +1377,6 @@
             });
         }
     </script>
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function() {
-            let devfolioOptions = {
-                buttonSelector: '#devfolio-apply-now',
-                key: 'hint5',
-            }
-
-            let script = document.createElement('script');
-            script.src = "https://apply.devfolio.co";
-            document.head.append(script);
-
-            script.onload = function() {
-                new Devfolio(devfolioOptions);
-            }
-
-            script.onerror = function() {
-                document.querySelector(devfolioOptions.buttonSelector).addEventListener('click', function() {
-                    window.location.href = 'https://devfolio.co/external-apply/' + devfolioOptions.key;
-                });
-            }
-        });
-    </script>
-    <!-- <a id="mlh-trust-badge" style="max-width:100px;min-width:60px;position:fixed;width:10%;z-index:10000"
-         href="https://mlh.io/seasons/apac-2020/events?utm_source=apac-hackathon&utm_medium=TrustBadge&utm_campaign=2020-season&utm_content=white"
-         target="_blank"><img
-           src="https://s3.amazonaws.com/logged-assets/trust-badge/2020/mlh-trust-badge-2020-apac-white.svg"
-           alt="Major League Hacking 2020 Hackathon Season" style="width:100%"></a> -->
     <script>
         window.onscroll = function() {
             scrollFunction()
@@ -1419,11 +1392,9 @@
 
                 $(".nav-item a").addClass("c24");
 
-            } else {
-                document.getElementById("mainNav").classList.add("c25");
+            } else { document.getElementById("mainNav").classList.add("c25");
                 document.getElementById("mainNav").classList.remove("shadowFix");
                 document.getElementById("mainNav").classList.remove("c23");
-                // document.getElementById("mlh-trust-badge").classList.remove("fading");
                 $(".nav-item a").removeClass("c24");
             }
         }
