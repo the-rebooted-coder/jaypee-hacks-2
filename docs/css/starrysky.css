@@ -1,6 +1,6 @@
   :root {
       --sky-color: rgb(0,204,238);
-      --sun-diameter: 10vmin;
+      --sun-diameter: 5vmin;
   }
 
   .container,
@@ -22,8 +22,8 @@
       left: calc( ( 100vw - 1.4141 * 100vmax) / 2);
       -webkit-transform-origin: 50% 50%;
       transform-origin: 50% 50%;
-      -webkit-animation: stars-trail 26s 0s linear infinite;
-      animation: stars-trail 10s 0s linear infinite;
+      -webkit-animation: stars-trail 50s 0s linear infinite;
+      animation: stars-trail 20s 0s linear infinite;
       animation-timing-function: linear;
   }
 
