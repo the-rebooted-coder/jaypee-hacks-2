@@ -24,7 +24,6 @@
       transform-origin: 50% 50%;
       -webkit-animation: stars-trail 26s 0s linear infinite;
       animation: stars-trail 10s 0s linear infinite;
-      /* animation-timing-function: cubic-bezier(0.2,0.1,0.26,1); */
       animation-timing-function: linear;
   }
 
@@ -44,7 +43,7 @@
 
   .star {
       position: relative;
-      background-color: #FFF;
+      background-color: #00008B;
       border-radius: 100%;
   }
 
