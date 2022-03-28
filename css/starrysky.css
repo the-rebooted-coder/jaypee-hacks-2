@@ -1,6 +1,6 @@
   :root {
-      --sky-color: rgb(0,204,238);
-      --sun-diameter: 10vmin;
+      --sky-color: rgba(73, 136, 228, 1);
+      --sun-diameter: 6vmin;
   }
 
   .container,
@@ -23,7 +23,7 @@
       -webkit-transform-origin: 50% 50%;
       transform-origin: 50% 50%;
       -webkit-animation: stars-trail 26s 0s linear infinite;
-      animation: stars-trail 10s 0s linear infinite;
+      animation: stars-trail 26s 0s linear infinite;
       /* animation-timing-function: cubic-bezier(0.2,0.1,0.26,1); */
       animation-timing-function: linear;
   }
