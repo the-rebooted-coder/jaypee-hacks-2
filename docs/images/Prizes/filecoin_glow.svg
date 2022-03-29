@@ -1,12 +1,1 @@
-<svg width="450" height="420" viewBox="0 0 450 420" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_f_733_587)">
-<rect x="105" y="-120" width="240" height="240" rx="120" fill="#0090FF"/>
-</g>
-<defs>
-<filter id="filter0_f_733_587" x="-195" y="-420" width="840" height="840" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="150" result="effect1_foregroundBlur_733_587"/>
-</filter>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="420" fill="none" viewBox="0 0 450 420"><g filter="url(#filter0_f_733_587)"><rect width="240" height="240" x="105" y="-120" fill="#0090FF" rx="120"/></g><defs><filter id="filter0_f_733_587" width="840" height="840" x="-195" y="-420" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feBlend in="SourceGraphic" in2="BackgroundImageFix" mode="normal" result="shape"/><feGaussianBlur result="effect1_foregroundBlur_733_587" stdDeviation="150"/></filter></defs></svg>
